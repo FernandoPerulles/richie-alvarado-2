@@ -256,6 +256,50 @@ body {
     color: var(--dorado-ambar);
     transform: scale(1.1);
 }
+/* --- About Section --- */
+.about-section {
+    padding: 4rem 0;
+    background-color: var(--azul-medianoche); /* Alternamos color de fondo */
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    text-align: left;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 350px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+.about-text {
+    flex: 1.5;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #ccc;
+    line-height: 1.7;
+}
+
+.about-quote {
+    font-family: var(--texto-titulos);
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--dorado-ambar);
+    border-left: 4px solid var(--dorado-ambar);
+    padding-left: 1.5rem;
+    margin-top: 2rem;
+}
 
 /* --- Music Section --- */
 .music-section {
@@ -868,4 +912,12 @@ body {
 
     .footer-container { flex-direction: column; align-items: center; text-align: center; }
     .social-icons-footer { justify-content: center; }
+}
+/* Dentro de @media (max-width: 992px) */
+.about-container {
+    flex-direction: column;
+    text-align: center;
+}
+.about-text .section-title {
+    text-align: center !important;
 }
