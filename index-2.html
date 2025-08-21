@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richie Alvarado - Sitio Oficial</title>
+    <link rel="stylesheet" href="styles/style-M.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#inicio" class="nav-logo">Richie Alvarado</a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <span class="hamburger"></span>
+            </button>
+            <div class="nav-links-container">
+                <ul class="nav-menu">
+                    <li><a href="#musica">Música</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#fotos">Fotos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <a href="#contrataciones" class="cta-button">Contrataciones</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <div class="artist-image-container">
+                    <img src="/images/modernogpt.webp" alt="Foto principal del artista" class="artist-image">
+                </div>
+                <div class="featured-release">
+                    <h1 class="featured-title">ÚLTIMO LANZAMIENTO</h1>
+                    <h2 class="song-title">Preso</h2>
+                    <p class="song-description">Ya disponible en todas las plataformas digitales. Una balada que captura la esencia del amor atemporal.</p>
+                    <div class="featured-buttons">
+                        <a href="#" class="btn btn-primary">Escuchar Ahora</a>
+                        <a href="#" class="btn btn-secondary">Ver Video</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-media">
+            <h3>Sígueme en mis redes</h3>
+            <div class="social-icons">
+                <a href="#" target="_blank" aria-label="Facebook">Facebook</a>
+                <a href="#" target="_blank" aria-label="Instagram">Instagram</a>
+                <a href="#" target="_blank" aria-label="YouTube">YouTube</a>
+                <a href="#" target="_blank" aria-label="TikTok">TikTok</a>
+                <a href="#" target="_blank" aria-label="Spotify">Spotify</a>
+            </div>
+        </section>
+
+        <section id="musica" class="music-section">
+            <div class="container">
+                <h2 class="section-title">Música</h2>
+                <p class="section-subtitle">Explora mi repertorio, desde baladas clásicas hasta éxitos inolvidables.</p>
+                <div class="music-gallery">
+                    <div class="song-card">
+                        <img src="ruta/a/portada-cancion-1.jpg" alt="Portada del sencillo Nombre de la Canción" class="song-cover">
+                        <div class="song-info">
+                            <h3 class="song-card-title">Nombre de la Canción</h3>
+                            <p class="song-card-artist">Nombre del Artista</p>
+                            <div class="audio-player">
+                                <audio src="ruta/a/audio-cancion-1.mp3" preload="metadata"></audio>
+                                <button class="play-button">▶</button>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                            <div class="streaming-links">
+                                <a href="#" title="Escuchar en Spotify">Spotify</a>
+                                <a href="#" title="Escuchar en Apple Music">Apple Music</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song-card">
+                        <img src="ruta/a/portada-cancion-2.jpg" alt="Portada del sencillo Otra Canción" class="song-cover">
+                        <div class="song-info">
+                            <h3 class="song-card-title">Otra Canción</h3>
+                            <p class="song-card-artist">Nombre del Artista</p>
+                            <div class="audio-player">
+                                <audio src="ruta/a/audio-cancion-2.mp3" preload="metadata"></audio>
+                                <button class="play-button">▶</button>
+                                <div class="progress-bar"><div class="progress"></div></div>
+                            </div>
+                            <div class="streaming-links">
+                                <a href="#" title="Escuchar en Spotify">Spotify</a>
+                                <a href="#" title="Escuchar en Apple Music">Apple Music</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos" class="events-section">
+            <div class="container">
+                <h2 class="section-title">Próximos Eventos</h2>
+                <p class="section-subtitle">Acompáñame en mis próximas presentaciones en vivo.</p>
+                <div class="events-list">
+                    <div class="event-item">
+                        <div class="event-date"><span class="day">28</span><span class="month">AGO</span></div>
+                        <div class="event-details">
+                            <h3 class="event-title">Noche de Baladas</h3>
+                            <p class="event-location">Teatro Metropólitan, Ciudad de México</p>
+                        </div>
+                        <a href="#" class="btn-event">Comprar Boletos</a>
+                    </div>
+                    <div class="event-item past-event">
+                        <div class="event-date"><span class="day">01</span><span class="month">JUL</span></div>
+                        <div class="event-details">
+                            <h3 class="event-title">Concierto Acústico</h3>
+                            <p class="event-location">Lunario del Auditorio Nacional, CDMX</p>
+                        </div>
+                        <a href="#" class="btn-event disabled">Evento Finalizado</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fotos" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Galería</h2>
+                <p class="section-subtitle">Momentos en el escenario y detrás de cámaras.</p>
+                <div class="photo-grid">
+                    <div class="grid-item"><img src="ruta/a/foto1.jpg" alt="Descripción de la foto 1"></div>
+                    <div class="grid-item v-2"><img src="ruta/a/foto2-vertical.jpg" alt="Descripción de la foto 2"></div>
+                    <div class="grid-item h-2"><img src="ruta/a/foto3-horizontal.jpg" alt="Descripción de la foto 3"></div>
+                    <div class="grid-item"><img src="ruta/a/foto4.jpg" alt="Descripción de la foto 4"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="videos" class="videos-section">
+            <div class="container">
+                <h2 class="section-title">Vídeos</h2>
+                <p class="section-subtitle">Videoclips oficiales, presentaciones en vivo y más.</p>
+                <div class="featured-video">
+                    <div class="video-responsive-wrapper">
+                        <iframe src="https://www.youtube.com/embed/rE1QuiCfD6E?si=RzyXbmK7kbFOgLAq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-responsive-wrapper"><iframe src="https://www.youtube.com/embed/ID_VIDEO_1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <h4 class="video-item-title">Título del Vídeo 1</h4>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-responsive-wrapper"><iframe src="https://www.youtube.com/embed/ID_VIDEO_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <h4 class="video-item-title">Título del Vídeo 2</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-subtitle">Para contrataciones, prensa o para enviarme un saludo, utiliza los siguientes medios.</p>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Información Profesional</h3>
+                        <p>Para asuntos de negocio, por favor contacta a mi equipo.</p>
+                        <div class="info-block">
+                            <h4>Management & Prensa</h4>
+                            <p><strong>Nombre del Manager</strong></p>
+                            <a href="mailto:manager@ejemplo.com">manager@ejemplo.com</a>
+                        </div>
+                        <div class="info-block">
+                            <h4>Contrataciones (Booking )</h4>
+                            <p><strong>Nombre del Agente</strong></p>
+                            <a href="mailto:booking@ejemplo.com">booking@ejemplo.com</a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <h3>Envíame un Mensaje</h3>
+                        <div class="form-group">
+                            <label for="name">Tu Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Tu Correo Electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer-section">
+        <div class="container footer-container">
+            <div class="footer-branding">
+                <h3 class="footer-logo">Nombre del Artista</h3>
+                <p>&copy; 2025 Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-social">
+                <h4>Sígueme</h4>
+                <div class="social-icons-footer">
+                    <a href="#" target="_blank" title="Facebook" aria-label="Facebook">FB</a>
+                    <a href="#" target="_blank" title="Instagram" aria-label="Instagram">IG</a>
+                    <a href="#" target="_blank" title="YouTube" aria-label="YouTube">YT</a>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#musica">Música</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <a class="lightbox-prev">&#10094;</a>
+        <a class="lightbox-next">&#10095;</a>
+    </div>
+
+    <script src="scripts/script-M.js"></script>
+</body>
+</html>
